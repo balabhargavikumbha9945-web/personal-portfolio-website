@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #191970;
+    color: white;
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: #00ffff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #00ffff;
+}
+
+section {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(120deg, #191970, #6a5acd);
+    color: white;
+    padding: 120px 10%;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero span {
+    color: #00ffff;
+}
+
+.hero p {
+    margin: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #00ffff;
+    color: #191970;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 25px;
+    color: #191970;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #ccc;
+}
+
+.skills span {
+    display: inline-block;
+    background: #191970;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background: #191970;
+    color: white;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6a5acd;
+}
+
+footer {
+    background: #191970;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+        display: inline-block;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+}
